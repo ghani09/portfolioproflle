@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    
+    }
+    body{
+        background-color: rgb(251,251,255);
+    }
+    .header_div {
+         display: flex;
+         flex-direction: row;
+         border : 1px solid grey;
+         align-items: center;
+         height: 80px;
+    
+    }
+    h1{
+        text-transform:capitalize ;
+         font-size: 1em;
+         font-weight: 600;
+         color: black;
+         margin-left: 10px;
+    }
+    .sch{
+          background-color: lightgrey;
+          border-radius: 10px;
+          padding:10px;
+          width:500px;
+          margin:auto;
+          
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+    
+          
+        }
+        .sch i.fa-magnifying-glass{
+           
+            margin-left:0px;
+            
+            border: none;
+        
+            
+        }
+        .sch input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+             font-size: 16px;
+             text-transform: capitalize;
+             font-family: sans-serif;
+             font-weight: 100;
+             font-display:inherit;
+        }
+        .side_div {
+            width:300px;
+            height: 100vh;
+            float: left;
+        
+        }
+        .side_div button {
+            background: transparent;
+            border:none;
+            outline:none;
+            height:50px;
+            width:300px;
+            cursor: pointer;
+            border-radius:10px;
+            padding:10px;
+            margin-right:10px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .side_div:hover{
+            background-color: #fff;
+    
+        }
+        
+     
+        
+        .side_div button:hover{
+            position:relative;
+            border-radius: 10px;
+            background-color: burlywood;
+            width:300px;
+            border:1px solid #ffff;
+            text-align: center;
+        
+        }
+        .side_div span{
+            margin-left:50px;
+            text-align: center;
+            position: absolute;
+        }
+       .content_div{
+        display: flex;
+        flex-direction: column;
+        border:1px solid gray;
+        width:500px;
+        min-height: fit-content;
+        margin:auto;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px -5px lightgray;
+        margin-top: 80px;
+        border-radius: 25px;
+        background-color: #fff;
+    
+       }
+       .content_div .inp,
+       .tar{
+            
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding:10px;
+       }
+        button.btn{
+    
+      background: transparent;
+        border: none;
+        outline: none;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        display: inline-block;
+        position: relative;
+        
+        margin-left:450px;
+        
+        }    
+        button.btn:hover{
+            background-color: green;
+    
+        }
+       .note{
+        width:200px;
+        height:200px;
+        border:1px solid grey;
+        background-color: #fff;
+        display: inline-block;
+        padding-right:20px;
+      margin-right: 20px; 
+    } 

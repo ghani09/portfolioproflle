@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+}
+ 
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #93a966;
+    align-items: center;
+    
+}
+.logo{
+    
+    color:#e1ded1;
+    font-size: 1em;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    color:black;
+    flex-direction: row;
+}
+
+.menu li{
+    padding:10px; 
+    
+}
+#socal_links li{
+    padding:10px;
+
+}
+#socal_links{
+    order:1;
+}
+article{
+    padding:10px;
+    text-align: justify;
+}
+aside{
+    padding:10px;
+}
+aside li{
+    color:#93a966;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+aside img{
+    width:100%;
+}
+   
+
+.btn{
+    
+    
+    
+    border-radius: 5px;
+    padding:10px;
+    outline: none;
+    border: none;
+}
+.service_container{
+    display: flex;
+    
+    
+    justify-content:space-between;
+}
+.service_box {
+ border:1px solid lightgray;
+ flex-basis: 32%;
+ max-width: 370px;
+ padding:10px;
+ display: flex;
+ flex-direction: column;
+}
+.service_box button{
+    align-self: flex-start;
+    margin-top: auto;
+    background-color: #93a966;
+    border:1px transparent;
+    padding:8px;
+    border-radius: 5px;
+}
+.service_box button:hover{
+    background: transparent;
+    border:1px solid grey;
+    color:grey;
+}
+.service_box img{
+    width:100%;
+}
+#main {
+    display: flex;
+    width:100vw;
+    height:100vh;
+}
+aside{
+    flex:0 0 20vw;
+    background-color:beige;
+}
+footer{
+    background-color: #93a966;
+    color:white;
+}
+@media screen and (max-width: 800px){
+    aside{
+        flex:0 0 30vw;
+        background-color:beige;
+    }
+    .service_container{
+        flex-wrap: wrap;
+    }
+    .service_box {
+        
+        flex-basis:45%
+    }
+
+    
+}
+@media screen and (max-width:600px){
+    header{
+        
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 12px;
+        
+    }
+    .menu li{
+        padding:10px; 
+        
+    }
+    #socal_links li{
+        padding:10px;
+    
+
+    }
+    
+
+     #main{
+        flex-direction: column;
+     }
+      article{
+        order:-1;
+      }
+       h2{
+        text-align: center;
+       } 
+    }
+     
+@media screen and (max-width:425px){
+
+    .service_box {
+        
+        flex-basis:70%;
+        
+    }
+    .service_container{
+     align-content: center;
+    }
+
+
+}
+
+
+
